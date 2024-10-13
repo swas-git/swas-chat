@@ -37,7 +37,7 @@ const ChatGenius = (function() {
     // Validate ChatGeniusID and ChatGeniusHost with the backend
     async function validateCredentials(ChatGeniusID, ChatGeniusHost, CurrentDomain) {
         try {
-        const response = await fetch('http://72.167.151.51/chat-genious/api/v1/project/validate-connection', {
+        const response = await fetch('https://chatgeniusai.com/dev/chatweb/chat_genius_web.js', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
